@@ -39,7 +39,8 @@ void fsm_manual_run(){
 			timer_red = temp_timer;
 			status = INIT;
 		}
-
+		//Display MODE on 7SEG LEDs
+			//Mode 2 => 2 leds display 82, 	and the other 2 leds display increased time.
 		updateClockBuffer(82, temp_timer/1000 );
 
 		break;
