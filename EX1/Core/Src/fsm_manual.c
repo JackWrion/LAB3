@@ -60,6 +60,8 @@ void fsm_manual_run(){
 			timer_yellow = temp_timer;
 			status = INIT;
 		}
+		//Display MODE on 7SEG LEDs
+			//Mode 3 => 2 leds display 83, 	and the other 2 leds display increased time.
 		updateClockBuffer(83, temp_timer/1000);
 
 
@@ -79,7 +81,8 @@ void fsm_manual_run(){
 				timer_green = temp_timer;
 				status = INIT;
 			}
-
+			//Display MODE on 7SEG LEDs
+				//Mode 4 => 2 leds display 84, 	and the other 2 leds display increased time.
 			updateClockBuffer(84, temp_timer/1000);
 
 		break;
