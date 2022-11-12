@@ -110,17 +110,6 @@ int main(void)
 
   while (1)
   {
-	  /*
-	  if (HAL_GPIO_ReadPin(Button1_GPIO_Port, Button1_Pin) == 0){
-		  HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-	  }
-
-	  //HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, 	HAL_GPIO_ReadPin(Button1_GPIO_Port, Button1_Pin)   );
-		*/
-
-	  //fsm_automatic_run();
-	  //fsm_manual_run();
-
 
 	  light_control_1();
 	  light_control_2();
